@@ -19,7 +19,6 @@ cd ~/.vim/bundle
 git clone https://github.com/Lokaltog/vim-powerline.git
 
 #solarized colors
-wget https://raw.githubusercontent.com/altercation/vim-colors-solarized/master/colors/solarized.vim
-mkdir -p ~/.vim/colors/
-mv solarized.vim ~/.vim/colors/
-
+cd ~/.vim/bundle
+git clone git://github.com/altercation/vim-colors-solarized.git
+mv vim-colors-solarized ~/.vim/bundle/

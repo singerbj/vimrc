@@ -12,7 +12,7 @@ imap jj <ESC>
 set nocompatible   " Disable vi-compatibility
 set laststatus=2   " Always show the statusline
 set encoding=utf-8 " Necessary to show Unicode glyphs
-set t_Co=256 " Explicitly tell Vim that the terminal supports 256 colors
+"set t_Co=256 " Explicitly tell Vim that the terminal supports 256 colors
 let g:Powerline_symbols = 'fancy'
 
 call pathogen#infect()
@@ -23,7 +23,7 @@ filetype plugin indent on
 nmap <silent> <C-T> :NERDTreeToggle<CR>
 
 syntax on
-set background=dark
+"set background=dark
 set showcmd
 set showmode
 set nofoldenable
@@ -48,8 +48,8 @@ set backspace=indent,eol,start
 
 set shiftround
 
-set cursorline
-set cursorcolumn
+"set cursorline
+"set cursorcolumn
 
 "set wildmenu
 "set wildmode=list:longest
@@ -61,7 +61,7 @@ set hidden
 set cmdheight=2
 set mouse=a
 
-colorscheme solarized
+"colorscheme solarized
 "call togglebg#map("<F5>")
 nnoremap <F1> :set paste<CR>
 nnoremap <F2> :set nopaste<CR> 
