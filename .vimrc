@@ -62,7 +62,7 @@ set cmdheight=2
 set mouse=a
 
 colorscheme solarized
-call togglebg#map("<F5>")
+"call togglebg#map("<F5>")
 nnoremap <F1> :set paste<CR>
 nnoremap <F2> :set nopaste<CR> 
 nnoremap <F3> :set hlsearch!<CR>
