@@ -22,3 +22,6 @@ git clone https://github.com/Lokaltog/vim-powerline.git
 cd ~/.vim/bundle
 git clone git://github.com/altercation/vim-colors-solarized.git
 mv vim-colors-solarized ~/.vim/bundle/
+
+echo "export PS1="\[\e[00;37m\]\n\[\e[0m\]\[\e[00;31m\]\$?\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;33m\]-\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[01;31m\]\u\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;33m\]-\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;31m\]\@\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;33m\]-\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[01;31m\]\w\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;33m\]>>\[\e[0m\]\[\e[00;37m\] \[\e[0m\]"
+" >> ~/.bashrc
