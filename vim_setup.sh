@@ -18,6 +18,10 @@ git clone https://github.com/scrooloose/nerdtree.git
 cd ~/.vim/bundle
 git clone https://github.com/Lokaltog/vim-powerline.git
 
+#supertab
+cd ~/.vim/bundle
+git clone https://github.com/ervandew/supertab.git
+
 #solarized colors
 cd ~/.vim/bundle
 git clone git://github.com/altercation/vim-colors-solarized.git
