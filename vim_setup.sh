@@ -25,7 +25,7 @@ git clone https://github.com/ervandew/supertab.git
 #solarized colors
 cd ~/.vim/bundle
 git clone git://github.com/altercation/vim-colors-solarized.git
-mv vim-colors-solarized ~/.vim/bundle/
+#mv vim-colors-solarized ~/.vim/bundle/
 
 echo "export PS1="'"\[\e[00;37m\]\n\[\e[0m\]\[\e[00;31m\]\$?\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;33m\]-\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[01;31m\]\u\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;33m\]-\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;31m\]\@\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;33m\]-\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[01;31m\]\w\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;33m\]>>\[\e[0m\]\[\e[00;37m\] \[\e[0m\]"'" " >> ~/.bashrc
 echo "alias tmux="'"rm -rf /tmp/tmux* && tmux"'"" >> ~/.bashrc
