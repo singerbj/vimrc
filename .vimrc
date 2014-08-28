@@ -40,6 +40,7 @@ set tabstop=2
 set softtabstop=2
 set expandtab
 set smarttab
+set smartindent
 set cindent
 set autoindent
 set nowrap
